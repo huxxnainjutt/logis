@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            {/* <div className="list-holder">
+            <div className="list-holder">
               <div className="list">
                 <span className="heading">Company</span>
                 <ul>
@@ -59,7 +59,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
             <div className="btn-holder">
               <button className="btn1">YouTube</button>
               <button className="btn2">facebook</button>

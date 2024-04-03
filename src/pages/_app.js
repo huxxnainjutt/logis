@@ -77,6 +77,8 @@ export default function App({ Component, pageProps }) {
     };
   }, [router]);
 
+  console.log("luuuuuuuuuuuuuuuuuun");
+
   return (
     <>
       {isLoading && (
@@ -96,7 +98,8 @@ export default function App({ Component, pageProps }) {
               black 100%
             );
             backdrop-filter: blur(12.5px);
-          `}>
+          `}
+        >
           <Loader />
         </div>
       )}
