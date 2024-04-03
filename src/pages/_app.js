@@ -77,7 +77,7 @@ export default function App({ Component, pageProps }) {
     };
   }, [router]);
 
-  console.log("luuuuuuuuuuuuuuuuuun");
+  console.log("luuuuuuuuuuuuuuuuuu1n");
 
   return (
     <>

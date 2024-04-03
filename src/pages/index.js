@@ -7,19 +7,19 @@ import Services from "@/components/Home/Services";
 import homeMainbg from "../../public/homeMainbg.jpg";
 import Testimonials from "@/components/Home/Testimonials";
 import QuestionSection from "@/components/Services/QuestionSection";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 const Home = () => {
-  const [isMounted, setIsMounted] = useState(false);
-  useEffect(()=>{
+  // const [isMounted, setIsMounted] = useState(false);
+  // useEffect(()=>{
 
-    setIsMounted(true)
-  },[])
-  
-  if(!isMounted){
-  
-    return
-  }
+  //   setIsMounted(true)
+  // },[])
+
+  // if(!isMounted){
+
+  //   return
+  // }
   return (
     <>
       <HeroMain
@@ -36,7 +36,7 @@ const Home = () => {
       <Services />
       <Qoute />
       <Testimonials />
-      <QuestionSection bgImg/>
+      <QuestionSection bgImg />
     </>
   );
 };
