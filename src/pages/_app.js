@@ -105,11 +105,11 @@ export default function App({ Component, pageProps }) {
       )}
       <div className={fonfamily.className}>
         <GlobalStyles />
-        <Layout>
-          <div id="wrapper">
-            <Component {...pageProps} />
-          </div>
-        </Layout>
+        {/* <Layout> */}
+        <div id="wrapper">
+          <Component {...pageProps} />
+        </div>
+        {/* </Layout> */}
       </div>
     </>
   );
